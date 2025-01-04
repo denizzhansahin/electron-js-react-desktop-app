@@ -12,12 +12,13 @@ function createMainWindow(){//pencere oluşturma
     })
 
     const startUrl = url.format({
-        pathname: path.join(__dirname, "index.html"),//başlatma dosyası
+        pathname: path.join(__dirname, "./app/dist/index.html"),//başlatma dosyası
         protocol: "file",
     })
 
 
-    mainWindow.loadURL(startUrl);
+    //mainWindow.loadURL(startUrl);
+    mainWindow.loadURL("http://localhost:3000");
 }
 
 

@@ -8,3 +8,7 @@
  2528  npx electron
  2529  npx electron .
  npx electromon .
+ npx create-react-app app --template typescript
+ npm install source-map-loader --save-dev
+npm audit fix --force
+http://localhost:3000
