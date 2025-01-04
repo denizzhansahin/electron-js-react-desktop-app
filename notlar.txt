@@ -1,0 +1,10 @@
+ 2495  mkdir electron-js-react-desktop-app
+ 2496  cd electron-js-react-desktop-app
+ 2497  code .
+ 2498  npm init
+ 2499  npm install electron
+ 2500  git init
+  2527  npm run start
+ 2528  npx electron
+ 2529  npx electron .
+ npx electromon .
