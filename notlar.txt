@@ -12,3 +12,4 @@
  npm install source-map-loader --save-dev
 npm audit fix --force
 http://localhost:3000
+npm install --save react-router-dom

@@ -18,7 +18,7 @@ function createMainWindow(){//pencere oluşturma
 
 
     //mainWindow.loadURL(startUrl);
-    mainWindow.loadURL("http://localhost:3000");
+    mainWindow.loadURL("http://localhost:5173");
 }
 
 
