@@ -2,6 +2,7 @@ import React from "react"
 
 
 export const Work: React.FC = () => {
+    const electron = (window as any).electron
     return(
         <div>
             <h1>Work</h1>
@@ -9,6 +10,8 @@ export const Work: React.FC = () => {
                 <li><a href='/'>Home</a></li>
                 <li><a href='/work'>Work</a></li>
             </ul>
+            The home is @{electron.arch()}  <br/>
+            The home is @{electron.osVersion()}
         </div>
     )
 }
