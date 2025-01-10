@@ -1,4 +1,5 @@
 import React from "react"
+import { TodoForm } from "../../components/forms/TodoForm"
 
 
 export const Work: React.FC = () => {
@@ -12,6 +13,7 @@ export const Work: React.FC = () => {
             </ul>
             The home is @{electron.arch()}  <br/>
             The home is @{electron.osVersion()}
+            <TodoForm/>
         </div>
     )
 }

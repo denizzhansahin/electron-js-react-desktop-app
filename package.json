@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^33.2.1",
+    "formik": "^2.4.6",
     "react-router-dom": "^7.1.1"
   }
 }

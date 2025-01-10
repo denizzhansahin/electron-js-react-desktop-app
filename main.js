@@ -1,6 +1,6 @@
 
 
-const {app,BrowserWindow} = require("electron");
+const {app,BrowserWindow, ipcMain} = require("electron");
 const path = require("path");
 const url = require("url");
 
@@ -29,3 +29,8 @@ function createMainWindow(){//pencere oluşturma
 
 
 app.whenReady().then(createMainWindow);
+
+
+ipcMain.on('submit:todoForm',(event,opts)=>{
+    console.log(opts);
+})
